@@ -8,8 +8,8 @@ function App() {
     <>
      <h1>React Tutorial</h1>
      
-< MyFirstComponent />
-< MyFirstComponent />
+< MyFirstComponent name="TommyBoy"/>
+ 
 
 </>
 
