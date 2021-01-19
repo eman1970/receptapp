@@ -1,8 +1,8 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { HomeView } from '../view/HomeView'
-import { RecipeView } from '../view/RecipeView'
-import {SignInView} from '../view/SignInView'
+import { AboutView } from '../view/AboutView'
+ 
 
 export const Routing = (props) => {
 
@@ -11,8 +11,8 @@ export const Routing = (props) => {
         <Router>
             {props.children}
             <Switch>
-                <Route exact path="/recipe" component={RecipeView} />
-                <Route exact path="/signin" component={SignInView} />
+                <Route exact path="/home" component={HomeView} />
+                <Route exact path="/about" component={AboutView} />
                 <Route component={HomeView} />
             </Switch>
         </Router>

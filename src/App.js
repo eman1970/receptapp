@@ -1,16 +1,15 @@
 
 import React from 'react'
 import { Routing } from './routes/Routing'
-import { NavigationBar} from './components/navigationbar/NavigationBar'
+import { DesktopNavigation } from './components/navigation/DesktopNavigation/DesktopNavigation'
 import "./shared/global/Global.css"
 
 function App() {
   return (
 
-    <Routing>
-     
+    <Routing>  
 
-     <NavigationBar />
+     <DesktopNavigation />
 
     </Routing>
 
