@@ -6,7 +6,8 @@ export const MySecondComponent = (props) => {
 return(
 
 <>
-<h2 className="title">{props.name}
+<h2 className="title">
+{props.name}
 {props.age}
 </h2>
 
